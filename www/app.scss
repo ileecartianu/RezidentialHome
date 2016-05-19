@@ -1,0 +1,57 @@
+$defautColor: #333333;
+$specificColor: #c94133;
+$textColor: white;
+
+.first-page {
+  position: absolute;
+  top: 40%;
+
+  .welcome-text {
+    color: $textColor;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .login-button {
+    margin: 120px 0 20px 0;
+    width: 100%;
+  }
+}
+
+.register-text {
+  color: $textColor;
+  text-align: center;
+  h5 {
+    color: $textColor;
+  }
+}
+
+.home-view {
+  background-color: $defautColor;
+}
+
+.login-view {
+  background-color: $defautColor !important;
+}
+
+.login-header {
+  position: relative;
+}
+
+.login-item {
+  background-color: $defautColor;
+  .login-input {
+    background-color: $defautColor!important;
+    width: 100%;
+    color: $textColor;
+  }
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px $defautColor inset;
+    -webkit-text-fill-color: $textColor;
+    border: 0;
+  }
+}

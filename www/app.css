@@ -1,0 +1,40 @@
+.first-page {
+  position: absolute;
+  top: 40%; }
+  .first-page .welcome-text {
+    color: white;
+    font-size: 24px;
+    text-align: center; }
+  .first-page .logo {
+    width: 100%; }
+  .first-page .login-button {
+    margin: 120px 0 20px 0;
+    width: 100%; }
+
+.register-text {
+  color: white;
+  text-align: center; }
+  .register-text h5 {
+    color: white; }
+
+.home-view {
+  background-color: #333333; }
+
+.login-view {
+  background-color: #333333 !important; }
+
+.login-header {
+  position: relative; }
+
+.login-item {
+  background-color: #333333; }
+  .login-item .login-input {
+    background-color: #333333 !important;
+    width: 100%;
+    color: white; }
+  .login-item input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #333333 inset;
+    -webkit-text-fill-color: white;
+    border: 0; }
+
+/*# sourceMappingURL=app.css.map */
